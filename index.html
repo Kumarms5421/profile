@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -30,7 +30,7 @@
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#ABOUT">About</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills-page">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
                 <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="https://drive.google.com/file/d/1nnNgXjDUTsr9iPoFV0_PMQIxAjMGxOtR/view?usp=drivesdk">Resume</a></div>
                 <div class="bld">
                     <div class="btn__indicator">
@@ -49,8 +49,8 @@
                 <a href="index.html">Home</a>
                 <a href="#ABOUT">About</a>
                 <a href="#skills-page">Skills</a>
-                <a href="#">Projects</a>
-                <a href="https://drive.google.com/file/d/1nnNgXjDUTsr9iPoFV0_PMQIxAjMGxOtR/view?usp=drivesdk">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="#">Resume</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
             </div>
         </div>
@@ -91,7 +91,7 @@
         </div>
     </section>
 
-    <section id="ABOUT" class="boxxx">
+    <section id="ABOUT" class="boxxx" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
         <div class="about">
             <h1 id="aaa">About</h1>
             <div class="typewriter2" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
@@ -109,7 +109,7 @@
     </section>
 
 
-    <section id="skills-page" class="skills-container boxxx">
+    <section id="skills-page" class="skills-container boxxx" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
         <div class="skilltyper">
             <div id="skill">Skills</div>
             <div class="typewriter3" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
@@ -119,45 +119,124 @@
 
         <div class="skill-boxes">
             <div class="skills-wrapper" id="skillsWrapper">
-                <div class="skill-box">
+                <div class="skill-box HH">
                     <img src="pic/Selenium.png" alt="Selenium Icon">
                     <span>Selenium</span>
                 </div>
-                <div class="skill-box">
+                <div class="skill-box HH">
                     <img src="pic/java.png" alt="Java Icon">
                     <span>Java</span>
                 </div>
 
-                <div class="skill-box">
+                <div class="skill-box HH">
                     <img src="pic/htmll.png" alt="HTML Icon">
                     <span>HTML</span> 
                 </div>
-                <div class="skill-box">
+                <div class="skill-box HH">
                     <img src="pic/Postman.png" alt="Postman Icon">
                     <span>Postman</span>
                 </div>
 
-                <div class="skill-box">
+                <div class="skill-box HH">
                     <img src="pic/FireFlink.png" alt="Postman Icon">
                     <span>FireFlink</span>
                 </div>
-
-<!--                 <div class="skill-box">
-                    <img src="pic/csss.png" alt="CSS Icon">
-                    <span>CSS</span>
-                </div> -->
-<!--                 <div class="skill-box">
-                    <img src="pic/javascript.png" alt="JavaScript Icon">
-                    <span>JavaScript</span>
-                </div> -->
                 
                 
-                <div class="skill-box">
+                <div class="skill-box HH">
                     <img src="pic/mysql.png" alt="MySQL Icon">
                     <span>MySQL</span>
                 </div>
                 
                
+            </div>
+        </div>
+    </section>
+
+    <section id="INTERNSHIP" class="boxxx" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
+        <div class="about">
+            <h1 id="intern">Internship</h1>
+            
+        </div>
+        <div class="box">
+            <div class="card">
+                <p>
+                    <b>Internship/Training</b>
+                    <br>
+                    Company: Robowaves, Bengaluru
+                    <br>
+                    Duration: November 2024 – January 2025
+                    <br>
+                    <br>
+                    Key Highlights:
+                    <br>
+                    Gained hands-on experience in both Manual and Automation Testing.
+                    <br>
+                    Wrote and executed test cases in real-world projects and handling dynamic elements
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="projects" class="boxxx">
+        <div class="projects-container">
+            <h1>Projects</h1>
+            <div class="project-boxes">
+                <div class="project-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <img id="projectimg" src="pic\helthcare.jpg" alt="Project 1">
+                    <h2>Health Insurance Domain</h2>
+                    <p>Testing Type: Manual Testing, Automation Testing 
+
+                        Responsibilities: Team Lead
+                        
+                        In this Domain helps you Prepare Financially for the Potential cost of Long-term care, Providing you with Security 
+                        if you need Help with Everyday tasks or Medical care during your Life. It's important to weigh the cost of premiums, your health, and your future needs before deciding if this insurance is right for you.
+                    <br>
+                        <strong>Scope & Process Followed</strong>
+                        <br>
+                        ➢ Robowaves team received KT on the “Health Insurance Domain” Application.
+                        <br>
+                        ➢ We Create 76 test cases, Out of 60 were valid and considered for PROJECT (Web)
+                        <br>
+                        ➢ Four engineers participated in the POC, and automated in "Production" environment.
+                        <br>
+                        ➢ Executed all the scripts on local Chrome browser(Version 131.0.6778.140). 
+                        <br>
+                        ➢ Script Execution within the FireFlink platform.
+                        <br>
+                        ➢ We are Create Both Automation and Manual Test case.
+                </p>
+                </div>
+                <div class="project-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <img id="projectimg" src="pic\Project2img.jpg" alt="Project 2">
+                    <h2>Hospitality and Travel Domain
+                    </h2>
+                    <p>Testing Types: Manual & Automation Testing
+                        <br>
+                        Responsibilities: Team Lead
+                        <br>
+                        In this Domain is a vacation rental platform that offers a collection of luxury homes, villas,
+                         and holiday homes across various destinations in India. 
+                            The idea behind Stay Vista is to provide upscale accommodations
+                            in beautifully selected homes that are perfect for private events like weddings and anniversaries as well as family holidays.
+                            <br>
+                            <strong>Scope & Process Followed</strong>
+                            <br>
+                            ➢ Robowaves team received KT on the “Hospitality and Travel Domain ” Application.
+                            <br>
+                            ➢ We Create 130 test cases, Out of 110 were valid and considered for PROJECT (Web)
+                            <br>
+                            ➢ Four engineers participated in the POC, and automated in "Production" environment.
+                            <br>
+                            ➢ Executed all the scripts on local Chrome browser(Version 131.0.6778.140). 
+                            <br>
+                            ➢ Script Execution within the FireFlink platform.
+                            <br>
+                            ➢ We are Create Both Automation and Manual Test case. 
+                        </p>
+                </div>
             </div>
         </div>
     </section>
